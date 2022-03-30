@@ -16,5 +16,23 @@ namespace calculadoraMikaGrazi
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if(!txtDisplay.Text.Trim().Equals("0"))
+            {
+                txtDisplay.Text = txtDisplay.Text + "0";
+            }
+            else
+            {
+                txtDisplay.Text = "0";
+            }
+
+        }
+
+        private void button0_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
