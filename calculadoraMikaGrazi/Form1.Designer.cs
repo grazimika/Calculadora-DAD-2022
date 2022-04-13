@@ -30,15 +30,15 @@ namespace calculadoraMikaGrazi
         private void InitializeComponent()
         {
             this.button0 = new System.Windows.Forms.Button();
-            this.btnbutton2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnbutton1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnDois = new System.Windows.Forms.Button();
+            this.btnTres = new System.Windows.Forms.Button();
+            this.btnUm = new System.Windows.Forms.Button();
+            this.btnQuatro = new System.Windows.Forms.Button();
+            this.btnCinco = new System.Windows.Forms.Button();
+            this.btnSeis = new System.Windows.Forms.Button();
+            this.btnNove = new System.Windows.Forms.Button();
+            this.btnOito = new System.Windows.Forms.Button();
+            this.btnSete = new System.Windows.Forms.Button();
             this.buttonvirgula = new System.Windows.Forms.Button();
             this.txtDisplay = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
@@ -67,126 +67,125 @@ namespace calculadoraMikaGrazi
             this.button0.TabIndex = 0;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = true;
-            this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
-            // btnbutton2
+            // btnDois
             // 
-            this.btnbutton2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbutton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnbutton2.Location = new System.Drawing.Point(62, 285);
-            this.btnbutton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnbutton2.Name = "btnbutton2";
-            this.btnbutton2.Size = new System.Drawing.Size(45, 37);
-            this.btnbutton2.TabIndex = 2;
-            this.btnbutton2.Text = "2";
-            this.btnbutton2.UseVisualStyleBackColor = true;
-            this.btnbutton2.Click += new System.EventHandler(this.button2_Click);
+            this.btnDois.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDois.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnDois.Location = new System.Drawing.Point(62, 285);
+            this.btnDois.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDois.Name = "btnDois";
+            this.btnDois.Size = new System.Drawing.Size(45, 37);
+            this.btnDois.TabIndex = 2;
+            this.btnDois.Text = "2";
+            this.btnDois.UseVisualStyleBackColor = true;
+            this.btnDois.Click += new System.EventHandler(this.btnDois_Click);
             // 
-            // button3
+            // btnTres
             // 
-            this.button3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(113, 285);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(47, 37);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnTres.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnTres.Location = new System.Drawing.Point(113, 285);
+            this.btnTres.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnTres.Name = "btnTres";
+            this.btnTres.Size = new System.Drawing.Size(47, 37);
+            this.btnTres.TabIndex = 3;
+            this.btnTres.Text = "3";
+            this.btnTres.UseVisualStyleBackColor = true;
+            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
             // 
-            // btnbutton1
+            // btnUm
             // 
-            this.btnbutton1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbutton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnbutton1.Location = new System.Drawing.Point(8, 285);
-            this.btnbutton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnbutton1.Name = "btnbutton1";
-            this.btnbutton1.Size = new System.Drawing.Size(48, 37);
-            this.btnbutton1.TabIndex = 1;
-            this.btnbutton1.Text = "1";
-            this.btnbutton1.UseVisualStyleBackColor = true;
-            this.btnbutton1.Click += new System.EventHandler(this.btnbutton1_Click);
+            this.btnUm.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnUm.Location = new System.Drawing.Point(8, 285);
+            this.btnUm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUm.Name = "btnUm";
+            this.btnUm.Size = new System.Drawing.Size(48, 37);
+            this.btnUm.TabIndex = 1;
+            this.btnUm.Text = "1";
+            this.btnUm.UseVisualStyleBackColor = true;
+            this.btnUm.Click += new System.EventHandler(this.btnUm_Click);
             // 
-            // button4
+            // btnQuatro
             // 
-            this.button4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button4.Location = new System.Drawing.Point(8, 239);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(48, 38);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnQuatro.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuatro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnQuatro.Location = new System.Drawing.Point(8, 239);
+            this.btnQuatro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnQuatro.Name = "btnQuatro";
+            this.btnQuatro.Size = new System.Drawing.Size(48, 38);
+            this.btnQuatro.TabIndex = 4;
+            this.btnQuatro.Text = "4";
+            this.btnQuatro.UseVisualStyleBackColor = true;
+            this.btnQuatro.Click += new System.EventHandler(this.btnQuatro_Click);
             // 
-            // button5
+            // btnCinco
             // 
-            this.button5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button5.Location = new System.Drawing.Point(62, 239);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(45, 38);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnCinco.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCinco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnCinco.Location = new System.Drawing.Point(62, 239);
+            this.btnCinco.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCinco.Name = "btnCinco";
+            this.btnCinco.Size = new System.Drawing.Size(45, 38);
+            this.btnCinco.TabIndex = 5;
+            this.btnCinco.Text = "5";
+            this.btnCinco.UseVisualStyleBackColor = true;
+            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
             // 
-            // button6
+            // btnSeis
             // 
-            this.button6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button6.Location = new System.Drawing.Point(113, 239);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(47, 38);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnSeis.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnSeis.Location = new System.Drawing.Point(113, 239);
+            this.btnSeis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSeis.Name = "btnSeis";
+            this.btnSeis.Size = new System.Drawing.Size(47, 38);
+            this.btnSeis.TabIndex = 6;
+            this.btnSeis.Text = "6";
+            this.btnSeis.UseVisualStyleBackColor = true;
+            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
-            // button9
+            // btnNove
             // 
-            this.button9.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.FlatAppearance.BorderSize = 3;
-            this.button9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button9.Location = new System.Drawing.Point(113, 194);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(47, 37);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.btnNove.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnNove.FlatAppearance.BorderSize = 3;
+            this.btnNove.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnNove.Location = new System.Drawing.Point(113, 194);
+            this.btnNove.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnNove.Name = "btnNove";
+            this.btnNove.Size = new System.Drawing.Size(47, 37);
+            this.btnNove.TabIndex = 9;
+            this.btnNove.Text = "9";
+            this.btnNove.UseVisualStyleBackColor = true;
+            this.btnNove.Click += new System.EventHandler(this.btnNove_Click);
             // 
-            // button8
+            // btnOito
             // 
-            this.button8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button8.Location = new System.Drawing.Point(62, 194);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(45, 37);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnOito.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOito.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnOito.Location = new System.Drawing.Point(62, 194);
+            this.btnOito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnOito.Name = "btnOito";
+            this.btnOito.Size = new System.Drawing.Size(45, 37);
+            this.btnOito.TabIndex = 8;
+            this.btnOito.Text = "8";
+            this.btnOito.UseVisualStyleBackColor = true;
+            this.btnOito.Click += new System.EventHandler(this.btnOito_Click);
             // 
-            // button7
+            // btnSete
             // 
-            this.button7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button7.Location = new System.Drawing.Point(8, 194);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(48, 37);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnSete.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnSete.Location = new System.Drawing.Point(8, 194);
+            this.btnSete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSete.Name = "btnSete";
+            this.btnSete.Size = new System.Drawing.Size(48, 37);
+            this.btnSete.TabIndex = 7;
+            this.btnSete.Text = "7";
+            this.btnSete.UseVisualStyleBackColor = true;
+            this.btnSete.Click += new System.EventHandler(this.btnSete_Click);
             // 
             // buttonvirgula
             // 
@@ -206,10 +205,11 @@ namespace calculadoraMikaGrazi
             this.txtDisplay.Location = new System.Drawing.Point(8, 22);
             this.txtDisplay.MaxLength = 10;
             this.txtDisplay.Name = "txtDisplay";
-            this.txtDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtDisplay.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtDisplay.Size = new System.Drawing.Size(353, 29);
             this.txtDisplay.TabIndex = 11;
             this.txtDisplay.TabStop = false;
+            this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button10
             // 
@@ -249,7 +249,6 @@ namespace calculadoraMikaGrazi
             this.button12.TabIndex = 12;
             this.button12.Text = "C";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // btnDivide
             // 
@@ -407,15 +406,15 @@ namespace calculadoraMikaGrazi
             this.Controls.Add(this.button12);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.buttonvirgula);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.btnbutton1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.btnbutton2);
+            this.Controls.Add(this.btnNove);
+            this.Controls.Add(this.btnOito);
+            this.Controls.Add(this.btnSete);
+            this.Controls.Add(this.btnSeis);
+            this.Controls.Add(this.btnCinco);
+            this.Controls.Add(this.btnQuatro);
+            this.Controls.Add(this.btnUm);
+            this.Controls.Add(this.btnTres);
+            this.Controls.Add(this.btnDois);
             this.Controls.Add(this.button0);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -434,15 +433,15 @@ namespace calculadoraMikaGrazi
         #endregion
 
         private System.Windows.Forms.Button button0;
-        private System.Windows.Forms.Button btnbutton2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnbutton1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnDois;
+        private System.Windows.Forms.Button btnTres;
+        private System.Windows.Forms.Button btnUm;
+        private System.Windows.Forms.Button btnQuatro;
+        private System.Windows.Forms.Button btnCinco;
+        private System.Windows.Forms.Button btnSeis;
+        private System.Windows.Forms.Button btnNove;
+        private System.Windows.Forms.Button btnOito;
+        private System.Windows.Forms.Button btnSete;
         private System.Windows.Forms.Button buttonvirgula;
         private System.Windows.Forms.TextBox txtDisplay;
         private System.Windows.Forms.Button button10;
